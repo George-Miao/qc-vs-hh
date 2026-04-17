@@ -1,0 +1,11 @@
+resolver: lts-24.37
+compiler: ghc-9.10.3
+allow-newer: true
+system-ghc: true
+
+packages:
+    - .
+    - ../common/etna-lib
+
+extra-include-dirs:
+    - /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/ffi
